@@ -5,7 +5,7 @@ from appconf import AppConf
 
 
 class AvatarConf(AppConf):
-    DEFAULT_SIZE = 80
+    DEFAULT_SIZE = 300
     RESIZE_METHOD = Image.ANTIALIAS
     STORAGE_DIR = 'avatars'
     PATH_HANDLER = 'avatar.models.avatar_path_handler'
